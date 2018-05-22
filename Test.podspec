@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
     s.author       = { "zhuqunye" => "zhuqunye@126.com" }  # 作者信息
     s.platform     = :ios, "7.0"  # 支持的平台及版本
     s.source       = { :git => "https://github.com/zhujunggsddu/Test.git", :tag => s.version }  # 项目地址，不支持 ssh
-    s.source_files  = "TestCommon/*.{h,m}"
+    s.source_files  = "../Clasees/TestCommon/*.{h,m}"
     s.requires_arc = true  # 是否使用 ARC
 end
